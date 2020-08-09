@@ -27,7 +27,6 @@ def remove_strawberry(contacts)
     favorite_ice_cream_flavors: ["strawberry", "cookie dough", "mint chip"]
   }
 }
-end
 def remove_strawberry(contacts)
 freddy = contacts["Freddy Mercury"]
   freddy.each do |attribute, value|
