@@ -28,6 +28,7 @@ def remove_strawberry(contacts)
   }
 }
 end
+def remove_strawberry(contacts)
 freddy = contacts["Freddy Mercury"]
   freddy.each do |attribute, value|
     if attribute == :favorite_icecream_flavors
